@@ -11,7 +11,7 @@ function sumarPuntos(){
     document.getElementById("player").style.marginTop = randNum + "px";
     document.getElementById("player").style.marginLeft = randNum2 + "px";
     if (puntos == 100){
-        alert(ganaste);
+        alert("ganaste");
     } 
 }
 
